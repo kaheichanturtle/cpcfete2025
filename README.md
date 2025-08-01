@@ -14,7 +14,7 @@ No part of this website (including design, layout, or code) may be copied, modif
 
 To discuss licensing or purchase offers for this template, please contact:
 
-**urgetnkaheichan@duck.com**
+**urgentkaheichan@duck.com**
 
 ---
 
