@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fete Timeline | CPC Fete 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Font_Awesome_5_solid_church.svg/1279px-Font_Awesome_5_solid_church.svg.png">
+
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo"><a href="home.html"><i class="fas fa-church"></i> CPC Fete 2025</a><span class="logo-subtitle">by Chinese Presbyterian Church, Sydney</span></div>
+            <nav class="main-nav">
+  <button
+    class="menu-toggle"
+    aria-label="Toggle Menu"
+    aria-expanded="false"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="visit.html">Visit Us</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="calendar.html">Schedule</a></li>
+    <li class="mobile-only"><a href="stalls.html">Stalls</a></li>
+    <li class="mobile-only"><a href="map.html">Map</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+
+  </ul>
+</nav>
+            <div class="header-actions">
+                <a href="stalls.html" class="btn btn-small btn-outline">View Stalls</a>
+                <a href="map.html" class="btn btn-small btn-secondary">View Map</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="timeline-section">
+            <div class="container">
+                <h1 class="section-title reveal">Fete Day Timeline</h1>
+                <p class="section-subtitle reveal">Here's the plan for our big day! Scroll through to see what's happening and when. Don't miss out on your favorite activities.</p>
+                
+                <div class="timeline" id="timeline-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container footer-grid">
+
+    <div class="footer-left">
+  <p>Thanks for supporting our church community! </p>
+  <p>388-394 Crown St, Surry Hills NSW 2010</p>
+
+  <p>
+    <a href="home.html">English</a> | 
+    <a href="homecn.html">中文</a>
+  </p>
+</div>
+
+    <div class="footer-right">
+      <p>© 2025 Ka Hei Chan | Chinese Presbyterian Church</p>
+      <p>Proudly made by 
+        <a href="https://kaheichan.neocities.org/" target="_blank" rel="noopener noreferrer">
+          Ka Hei (Shellcraft Studios)
+        </a>
+      </p>
+      <p><a href="#top" class="back-to-top">Back to top ↑</a></p>
+    </div>
+
+    </div>
+    <div class="social-icons">
+        <a href="tel:+610293314459" aria-label="Telephone">
+          <i class="fas fa-phone-square"></i>
+        </a>
+        <a href="https://www.instagram.com/cpcfete2025/" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:cpc.office@cpc.org.au" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+</footer>
+
+    <script src="events-data.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.main-nav .nav-links');
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => { navLinks.classList.toggle('active'); menuToggle.querySelector('i').classList.toggle('fa-bars'); menuToggle.querySelector('i').classList.toggle('fa-times'); });
+            }
+
+            const timelineContainer = document.getElementById('timeline-container');
+            
+            const sortedEvents = eventsList.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
+
+            sortedEvents.forEach((event, index) => {
+                const timelineItem = document.createElement('div');
+                const side = index % 2 === 0 ? 'left' : 'right'; 
+                timelineItem.className = `timeline-item ${side} reveal`;
+                const detailButton = event.isMarker ? '' : `<a href="event-detail.html?event=${event.id}" class="btn btn-primary btn-small" style="margin-top: 10px; margin-right: 10px;">View Details</a>`;
+                timelineItem.innerHTML = `
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-clock"></i> ${event.time}</span>
+                            <span><i class="fas fa-map-marker-alt"></i> ${event.location}</span>
+                        </div>
+                        <h3>${event.title}</h3>
+                        <p>${event.description}</p>
+                        ${detailButton}
+                    </div>
+                `;
+                timelineContainer.appendChild(timelineItem);
+            });
+            
+            const revealElements = document.querySelectorAll('.reveal');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } });
+            }, { threshold: 0.1 });
+            revealElements.forEach(el => revealObserver.observe(el));
+        });
+    </script>
+</body>
+</html>

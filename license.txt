@@ -1,0 +1,68 @@
+Website Use Agreement and License
+
+Project: CPC Fete Website
+Designer/Developer: Ka Hei Chan
+Organisation: Chinese Presbyterian Church
+
+
+This website is custom-designed and developed by Ka Hei Chan for the 2025 Chinese Presbyterian Church (CPC)
+Fete and is © Ka Hei Chan (Shellcraft Studios).
+
+The Church is granted full permission to host, use, and maintain this website for the 2025 event, as well as for future
+CPC fetes. However, all creative and technical components of the website, including but not limited to the layout,
+structure, styling, and source code, remain the intellectual property of Ka Hei Chan.
+
+
+Copyright Notice:
+This website and all of its original content are protected under the Copyright Act 1968 (Cth), which applies in New South
+Wales, Australia, and is recognised internationally through various treaties including the Berne Convention for the
+Protection of Literary and Artistic Works.
+
+This includes (but is not limited to):
+- HTML, CSS, JavaScript, or any other source code
+- Website layout, structure, and styling
+- Any original design, graphics, or text content
+
+All components of this site are © Ka Hei Chan (Shellcraft Studios), herein known as Shellcraft, Ka Hei, Ka Hei Chan, I, or They.
+No part of this website may be copied, reproduced, distributed, or repurposed without the express written permission of the designer regardless of whether use occurs in Australia or
+overseas.
+
+Unauthorised use of this website's content will result in a DMCA takedown notice being issued to the relevant hosting provider or platform.
+If no action is taken within 14 calendar days of the notice, the matter may be escalated to formal mediation or legal
+proceedings under the appropriate jurisdiction, including but not limited to the NSW Civil and Administrative Tribunal
+(NCAT) or relevant Australian courts.
+
+
+Permitted Use Summary:
+- CPC may use and host this website for its 2025 Fete and future CPC fetes.
+- Use of the site or its elements for unrelated events, ministries, or organisations is not
+permitted without written approval.
+- Ka Hei Chan retains the right to reuse or adapt elements of this project for future personal, academic, or professional
+work.
+
+
+Third-Party Content Disclaimer:
+Certain elements used in this website such as specific text content provided by CPC, Font Awesome icons, and images
+supplied by the Church or sourced from licensed platforms are the intellectual property of their respective owners.
+
+I claim no copyright over:
+- Church-provided written content (e.g. the About page or ministry descriptions)
+- Icons from the Font Awesome library (used under their license)
+- Photographs or images not created by Ka Hei
+This agreement only applies to the original website design, layout, structure, and code developed specifically for this
+project.
+
+Attribution Notice:
+Font Awesome icons are used under the Font Awesome Free License.
+Font Awesome © Fonticons, Inc. https://fontawesome.com/license/free
+Adobe Stock images
+iStock images
+Getty Images
+Facebook Images
+
+(Images credit to their respective owners. I or CPC do not claim copyright, and we will gladly take the image down. email cpc.office@cpc.org.au for DMCA or image takedown.)
+
+
+Thank you for your cooperation.
+Signed: Ka Hei Chan
+Date: July 31, 2025

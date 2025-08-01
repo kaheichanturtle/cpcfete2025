@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們 | 華人長老會市集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Font_Awesome_5_solid_church.svg/1279px-Font_Awesome_5_solid_church.svg.png">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo"><a href="homecn.html"><i class="fas fa-church"></i> 華人長老會市集</a><span class="logo-subtitle">悉尼華人長老會主辦</span></div>
+            <nav class="main-nav">
+  <button
+    class="menu-toggle"
+    aria-label="Toggle Menu"
+    aria-expanded="false"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <ul class="nav-links">
+    <li><a href="aboutcn.html">關於</a></li>
+    <li><a href="visitcn.html">參觀我們</a></li>
+    <li><a href="gallerycn.html">相冊</a></li>
+    <li><a href="calendarcn.html">日程</a></li>
+    <li class="mobile-only"><a href="stallscn.html">攤位</a></li>
+    <li class="mobile-only"><a href="mapcn.html">地圖</a></li>
+    <li><a href="faqcn.html">常見問題</a></li>
+
+  </ul>
+</nav>
+            <div class="header-actions">
+                <a href="stallscn.html" class="btn btn-small btn-outline">瀏覽攤位</a>
+                <a href="mapcn.html" class="btn btn-small btn-secondary">查看地圖</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="about-hero-section">
+            <div class="container">
+                <div class="about-intro-container">
+                    <div class="about-intro-content reveal">
+                        <h2 class="section-title-left">我們的故事</h2>
+                        <h1>不只是一個市集</h1>
+                        <p>悉尼華人長老會（CPC）是一個歡樂且多元的信仰社區，位於悉尼市中心。我們的教會大家庭擁有豐富的語言和崇拜服務, 上午9點和下午4點有英語崇拜，還有粵語、普通話和雙語崇拜, 儘管如此，我們因共同的價值觀和對團契的熱愛而團結一致。
+對我們來說，慶祝文化和建立聯繫深深融入了我們的身份認同。我們最珍視的傳統之一是華人長老會美食與團契市集。雖然我們上次舉辦是在2018年，但我們很高興今年能再次舉辦, 這項活動體現了我們是怎樣的：一個美食、文化遺產和人們聚集在一起的地方。
+這個市集不只是一個慶典, 它是對我們的鄰居、朋友和家人們的公開邀請，邀請他們踏入我們的門戶，體驗我們的熱情好客，看看華人長老會的獨特之處。從美味的食物和有趣的活動，到導覽和溫馨的對話，這都是我們精神的生動寫照。
+無論您是來參加節慶還是崇拜，華人長老會都是一個可以歸屬、成長和建立聯繫的地方。</p>
+                      <a href="https://www.cpc.org.au/" class="btn btn-primary reveal delay-2">查看悉尼華人長老會網站</a>
+                    </div>
+                    <div class="about-intro-image reveal delay-1">
+                        <img src="https://iili.io/FScBUhb.png" alt="悉尼華人長老會建築的溫馨圖片">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+    <footer class="site-footer">
+    <div class="container footer-grid">
+
+    <div class="footer-left">
+  <p>感謝您支持我們的教會社區！ </p>
+  <p>388-394 Crown St, Surry Hills NSW 2010</p>
+  
+  <p>
+    <a href="home.html">English</a> | 
+    <a href="homecn.html">中文</a>
+  </p>
+</div>
+
+    <div class="footer-right">
+      <p>© 2025 Ka Hei Chan | Chinese Presbyterian Church</p>
+      <p>由 
+        <a href="https://kaheichan.neocities.org/" target="_blank" rel="noopener noreferrer">
+          Ka Hei (Shellcraft Studios)
+        </a>
+        驕傲製作
+      </p>
+      <p><a href="#top" class="back-to-top">回到頂部 ↑</a></p>
+    </div>
+
+    </div>
+    <div class="social-icons">
+        <a href="tel:+610293314459" aria-label="Telephone">
+          <i class="fas fa-phone-square"></i>
+        </a>
+        <a href="https://www.instagram.com/cpcfete2025/" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:cpc.office@cpc.org.au" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+</footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.main-nav .nav-links');
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                    menuToggle.querySelector('i').classList.toggle('fa-bars');
+                    menuToggle.querySelector('i').classList.toggle('fa-times');
+                });
+            }
+
+            const revealElements = document.querySelectorAll('.reveal');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            revealElements.forEach(el => revealObserver.observe(el));
+        });
+    </script>
+</body>
+</html>

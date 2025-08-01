@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>市集日程 | 華人長老會市集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Font_Awesome_5_solid_church.svg/1279px-Font_Awesome_5_solid_church.svg.png">
+
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo"><a href="homecn.html"><i class="fas fa-church"></i> 華人長老會市集</a><span class="logo-subtitle">悉尼華人長老會主辦</span></div>
+            <nav class="main-nav">
+  <button
+    class="menu-toggle"
+    aria-label="Toggle Menu"
+    aria-expanded="false"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <ul class="nav-links">
+    <li><a href="aboutcn.html">關於</a></li>
+    <li><a href="visitcn.html">參觀我們</a></li>
+    <li><a href="gallerycn.html">相冊</a></li>
+    <li><a href="calendarcn.html">日程</a></li>
+    <li class="mobile-only"><a href="stallscn.html">攤位</a></li>
+    <li class="mobile-only"><a href="mapcn.html">地圖</a></li>
+    <li><a href="faqcn.html">常見問題</a></li>
+
+  </ul>
+</nav>
+            <div class="header-actions">
+                <a href="stallscn.html" class="btn btn-small btn-outline">瀏覽攤位</a>
+                <a href="mapcn.html" class="btn btn-small btn-secondary">查看地圖</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="timeline-section">
+            <div class="container">
+                <h1 class="section-title reveal">市集日程表</h1>
+                <p class="section-subtitle reveal">這是我們大日子活動的安排！滾動查看有哪些活動以及它們什麼時候舉行。不要錯過您最喜歡的活動。</p>
+                
+                <div class="timeline" id="timeline-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container footer-grid">
+
+    <div class="footer-left">
+  <p>感謝您支持我們的教會社區！ </p>
+  <p>388-394 Crown St, Surry Hills NSW 2010</p>
+
+  <p>
+    <a href="home.html">English</a> | 
+    <a href="homecn.html">中文</a>
+  </p>
+</div>
+
+    <div class="footer-right">
+      <p>© 2025 Ka Hei Chan | Chinese Presbyterian Church</p>
+      <p>由 
+        <a href="https://kaheichan.neocities.org/" target="_blank" rel="noopener noreferrer">
+          Ka Hei (Shellcraft Studios)
+        </a>
+        驕傲製作
+      </p>
+      <p><a href="#top" class="back-to-top">回到頂部 ↑</a></p>
+    </div>
+
+    </div>
+    <div class="social-icons">
+        <a href="tel:+610293314459" aria-label="Telephone">
+          <i class="fas fa-phone-square"></i>
+        </a>
+        <a href="https://www.instagram.com/cpcfete2025/" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:cpc.office@cpc.org.au" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+</footer>
+
+    <script src="events-datacn.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.main-nav .nav-links');
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => { navLinks.classList.toggle('active'); menuToggle.querySelector('i').classList.toggle('fa-bars'); menuToggle.querySelector('i').classList.toggle('fa-times'); });
+            }
+
+            const timelineContainer = document.getElementById('timeline-container');
+            
+            // Assuming events-data.js contains a global variable `eventsList`
+            // You'll need to create an `events-data.js` file with your event data,
+            // formatted similarly to the original's expected data structure.
+            // For example:
+            /*
+            const eventsList = [
+                {
+                    id: 'event1',
+                    title: '市集開幕',
+                    description: '市集正式開始，歡迎大家！',
+                    time: '上午10:00',
+                    location: '主入口',
+                    startTime: '2025-09-13T10:00:00',
+                    isMarker: false
+                },
+                {
+                    id: 'event2',
+                    title: '現場音樂表演',
+                    description: '欣賞本地樂隊帶來的精彩音樂。',
+                    time: '上午11:00',
+                    location: '主舞台',
+                    startTime: '2025-09-13T11:00:00',
+                    isMarker: false
+                },
+                {
+                    id: 'event3',
+                    title: '兒童臉部彩繪',
+                    description: '為孩子們提供有趣的臉部彩繪。',
+                    time: '上午10:30 - 下午2:00',
+                    location: '兒童區',
+                    startTime: '2025-09-13T10:30:00',
+                    isMarker: false
+                }
+                // ... more events
+            ];
+            */
+
+            // Make sure events-data.js is also translated and the .html links in it (if any) are .htmlcn
+
+            const sortedEvents = eventsList.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
+
+            sortedEvents.forEach((event, index) => {
+                const timelineItem = document.createElement('div');
+                const side = index % 2 === 0 ? 'left' : 'right'; 
+                timelineItem.className = `timeline-item ${side} reveal`;
+                const detailButton = event.isMarker ? '' : `<a href="event-detailcn.html?event=${event.id}" class="btn btn-primary btn-small" style="margin-top: 10px; margin-right: 10px;">查看詳情</a>`;
+                timelineItem.innerHTML = `
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-clock"></i> ${event.time}</span>
+                            <span><i class="fas fa-map-marker-alt"></i> ${event.location}</span>
+                        </div>
+                        <h3>${event.title}</h3>
+                        <p>${event.description}</p>
+                        ${detailButton}
+                    </div>
+                `;
+                timelineContainer.appendChild(timelineItem);
+            });
+            
+            const revealElements = document.querySelectorAll('.reveal');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } });
+            }, { threshold: 0.1 });
+            revealElements.forEach(el => revealObserver.observe(el));
+        });
+    </script>
+</body>
+</html>
