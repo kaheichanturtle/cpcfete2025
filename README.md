@@ -1,21 +1,11 @@
-# CPC Fete 2025 — Official Website Source Code
+# FETE Project
 
-This repository contains the **archived and backup source code** for the Chinese Presbyterian Church Fete 2025 official website.
+This repository is part of the 2025 CPC Church FETE.
 
- **Note:** This release is for archival purposes only. The live site is hosted at [https://fete.cpc.org.au](https://fete.cpc.org.au).
+## Website Links
 
----
+- **Official Site**: [https://fete.cpc.org.au](https://fete.cpc.org.au)  
+  This is the publicly accessible version of the site intended for general users.
 
-## Copyright
-
-© 2025 Ka Hei Chan. All rights reserved.
-
-No part of this website (including design, layout, or code) may be copied, modified, or reproduced for personal or commercial use without explicit permission.
-
-To discuss licensing or purchase offers for this template, please contact:
-
-**urgentkaheichan@duck.com**
-
----
-
-Built with ❤️ by **Ka Hei Chan** | [Shellcraft Studios](https://kaheichan.neocities.org)
+- **Development Site**: [https://fete-dev.cpc.org.au](https://fete-dev.cpc.org.au)  
+  This version is used internally for testing, staging updates, and previews before deployment to production.
