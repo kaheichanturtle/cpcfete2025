@@ -53,16 +53,35 @@ This agreement only applies to the original website design, layout, structure, a
 project.
 
 Attribution Notice:
-Font Awesome icons are used under the Font Awesome Free License.
-Font Awesome © Fonticons, Inc. https://fontawesome.com/license/free
-Adobe Stock images
-iStock images
-Getty Images
-Facebook Images
+Font Awesome icons are used under the Font Awesome Free License. Font Awesome © Fonticons, Inc. https://fontawesome.com/license/free
+Images are used under Creative Commons Free License. Creative Commons Public Domain: https://creativecommons.org/public-domain/
 
-(Images credit to their respective owners. I or CPC do not claim copyright, and we will gladly take the image down. email cpc.office@cpc.org.au for DMCA or image takedown.)
+Spring Rolls: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxFJzjatCvk4fBTW8bW4jnVg1qCUlKCotXrQ&s, Pexels
+Topokki: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOopThZfNj3DjjUWVcfbF7-QJf79h5XY-vYQ&s, WikiMedia
+HK Street Food: https://upload.wikimedia.org/wikipedia/commons/3/31/HK_Lower_Wong_Tai_Sin_Eatate_Tung_Tau_Tsuen_Road_n_Ching_Tak_Street_%E9%9B%9E%E8%9B%8B%E4%BB%94.JPG, WikiMedia
+Coffee: https://i1.pickpik.com/photos/821/429/88/food-drink-coffee-drinks-preview.jpg, PickPic
+Gelato: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRlVCIXiWd0zZ7xJwwjQR7Ucm1oo9c9cviQ&s, PXHere
+Crepes: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxc-epRX17pF6Xy8NpOgftMuTenoLxE7pcA&s, PXHere
+Bubble Tea: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsscLFZbacrCVg-l19jQF7QIhdYwc5y-RCw&s, WikiMedia
+Fishball Noodle: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5ye1hcMTCkkcYuUQaTCc43Wp5BnqWzlkdQ&s, WikiMedia
+Curry Fishball: https://upload.wikimedia.org/wikipedia/commons/3/34/Curry_Fish_Balls_1A.jpg, WikiMedia
+Indonesean: https://upload.wikimedia.org/wikipedia/commons/2/20/Nasi_Campur.jpg, WikiMedia
+Congee: https://upload.wikimedia.org/wikipedia/commons/f/fc/Congee_with_Youtiao.jpg, WikiMedia
+Cafe: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4uR3ii1mBR4a6t9CxBbIgtFVwPGRi0MYzA&s, StockSnap
+Tote: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJw8Q9tIDrixPGq66UnW5hyfCK5-SSG4PAA&s, WikiMedia
+Cards: https://media.istockphoto.com/id/165685954/photo/christmas-scrapbooking.jpg?s=612x612&w=0&k=20&c=ZnId8_45djkN_9sJCDQnuLT-PE6jbRNLg2dAolONFTg=, istockphoto
+Handicraft: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33IEgr6qtIDDzbUcMzkgI8mo47RcodlHZ8A&s, Freerange Stock
+Book: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjRN31GyD2knTbOae8qZFbKXbI4SCeVLTzQ&s, PXHere
+Jumping: https://media.istockphoto.com/id/911352346/photo/child-jumping-on-playground-trampoline-kids-jump.jpg?s=612x612&w=0&k=20&c=oH9f8va4nNIjiin2Pw3xNLBrQuR7LS93W9dpOtUC7R8=, istockphoto
+Hoopla: https://media.istockphoto.com/id/1677556768/vector/wanage.jpg?s=612x612&w=0&k=20&c=wc582qt6y7N41n9r2C9zqiacVSQm47Qv_3tPbh0UKF8=, istockphoto
+Cupcake: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVcZ_-dJKbyyqQ5ZAAKz5dc4z0Pg83af57w&s, Pexels
+Choir: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ahV3MLPPdhiEnlzAk9h_QXqzbEOo8A3-QQ&s, PXHere
+Face: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjFFa7bDbPt-2vgthtHybzfGQDr87CX528g&s, PXHere
+
+(Images credit to their respective owners. I or CPC do not claim copyright, and we will gladly take the image down. email cpc.office@cpc.org.au for DMCA image takedown.)
 
 
 Thank you for your cooperation.
-Signed: Ka Hei Chan
-Date: July 31, 2025
+Ka Hei Chan
+Last Updated: July 31, 2025
+Version: 4

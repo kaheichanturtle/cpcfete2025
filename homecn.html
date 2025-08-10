@@ -68,7 +68,7 @@
           
         
           <div class="hero-content">
-            <h1 class="reveal">樂趣、美食與<br />社群<br />等著您！</h1>
+            <h1 class="reveal">樂趣, 美食, <br />社群和歡樂,<br> 等著您！</h1>
             <br />
             <p style="font-size:25px;">
               <b>2025年9月13日，上午10點至下午3點</b>
@@ -276,8 +276,7 @@
             <details class="faq-item">
               <summary>接受哪些付款方式？</summary>
               <p>
-                我們的攤位接受在售票亭購買的門票，門票可以使用現金或卡（EFTPOS/信用卡）購買。
-              </p>
+活動會採用的是代幣券系統。當天可以用現金或刷卡購買代幣券。如果能提供正確的金額，攤位也接受現金付款。              </p>
             </details>
             <details class="faq-item">
               <summary>活動允許寵物入場嗎？</summary>
@@ -301,6 +300,126 @@
         </div>
       </section>
     </main>
+    <!--   Acknowledgement of Country Popup      -->
+<!-- 
+<div id="aoc-popup-overlay">
+  <div id="aoc-popup">
+    <div class="aoc-image-container">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcWuMYCcgE6uuXjGiGzoD5fesGNoNaVC4RWQ&s"
+        alt="Acknowledgement of Country graphic"
+      />
+    </div>
+
+    <h2>土地致敬聲明</h2>
+    <p>
+悉尼華人長老會謹此承認Eora民族的Gadigal族人是我們教會及華人長老會市集所在地的傳統土地擁有者。我們向他們的長者（過去及現在）致以崇高的敬意，並將這份敬意擴展至所有原住民及托雷斯海峽島民。    </p>
+    <button id="aoc-close-btn" class="btn btn-primary">
+      確認並繼續
+    </button>
+  </div>
+</div>
+
+<style>
+  #aoc-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(44, 62, 80, 0.85);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+  }
+
+  #aoc-popup-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #aoc-popup {
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+
+  #aoc-popup-overlay.visible #aoc-popup {
+    transform: scale(1);
+  }
+
+  .aoc-image-container {
+    width: 80px;
+    height: 80px; 
+    margin: 0 auto 1.5rem auto;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #f0f4f8; 
+  }
+
+  .aoc-image-container img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+  }
+
+  #aoc-popup h2 {
+    font-family: "Reddit Sans", sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  #aoc-popup p {
+    font-family: "Reddit Sans", sans-serif;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const aocOverlay = document.getElementById("aoc-popup-overlay");
+    const aocCloseBtn = document.getElementById("aoc-close-btn");
+
+    const hidePopup = () => {
+      if (aocOverlay) {
+        aocOverlay.classList.remove("visible");
+      }
+    };
+
+    setTimeout(() => {
+      if (aocOverlay) {
+        aocOverlay.classList.add("visible");
+      }
+    }, 500);
+
+    if (aocCloseBtn) {
+      aocCloseBtn.addEventListener("click", hidePopup);
+    }
+
+    if (aocOverlay) {
+      aocOverlay.addEventListener("click", (e) => {
+        if (e.target === aocOverlay) {
+          hidePopup();
+        }
+      });
+    }
+  });
+</script> -->
+<!-- End acknowledgement -->
 
   <footer class="site-footer">
     <div class="container footer-grid">

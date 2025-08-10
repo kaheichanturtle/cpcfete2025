@@ -5,140 +5,140 @@ const eventsList = [
         time: "10:00 AM",
         startTime: "2025-09-13T10:00:00",
         location: "Entrance",
-        description: "Welcome! Grab a map, enjoy the atmosphere, and get ready for a fantastic day of fun, food, and community.",
-        isMarker: true //this means only showing in calendar, not events.html
+        description: "Welcome! Come along, enjoy the atmosphere, and get ready for a fantastic day of fun, food, and community.",
+        isMarker: true //notes to self: this means only showing in calendar, not events.html
     },
     {
         id: "gyoza-springrolls",
         title: "Gyoza and Mini Spring Rolls",
-        image: "https://thumbs.dreamstime.com/b/chinese-traditional-spring-rolls-gyoza-dumpling-fried-wooden-table-69338821.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxFJzjatCvk4fBTW8bW4jnVg1qCUlKCotXrQ&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Savor delicious homemade gyoza and crispy mini spring rolls, freshly prepared by our talented volunteers. Perfect for a quick snack or to share with friends.",
+        location: "Food Stall",
+        description: "Savour delicious homemade gyoza and crispy mini spring rolls, freshly prepared by our talented volunteers. Perfect for a quick snack or to share with friends.",
         category: "food"
     },
     {
         id: "topokki",
         title: "Topokki",
-        image: "https://media.istockphoto.com/id/1152570620/photo/spicy-rice-cakes.jpg?s=612x612&w=0&k=20&c=TCyhZGs6rY66-RnxTCRFqEWESaQ3sgrzogwbc1UXmRo=",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOopThZfNj3DjjUWVcfbF7-QJf79h5XY-vYQ&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Enjoy this popular Korean street food! Our topokki is spicy, chewy, and full of flavor—a must-try for foodies and fans of Asian cuisine.",
+        location: "Food Stall",
+        description: "Enjoy this popular Korean street food! Our topokki is spicy, chewy, and full of flavour—a must-try for foodies and fans of Asian cuisine.",
         category: "food"
     },
     {
         id: "hk-street-food",
         title: "Hong Kong Street Food",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8TwCvo0V5SQM5is1nhKaYIYUAK7H1bWDOCg&s",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/31/HK_Lower_Wong_Tai_Sin_Eatate_Tung_Tau_Tsuen_Road_n_Ching_Tak_Street_%E9%9B%9E%E8%9B%8B%E4%BB%94.JPG",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Sample a variety of classic Hong Kong street snacks, from savory skewers to sweet treats. Experience the vibrant flavors of Hong Kong right here at the fete.",
+        location: "Food Stall",
+        description: "Sample a variety of classic Hong Kong street snacks, from savoury skewers to sweet treats. Experience the vibrant flavours of Hong Kong right here at the fete.",
         category: "food"
     },
     {
         id: "coffee-cart",
         title: "Coffee Cart",
-        image: "https://www.shutterstock.com/image-photo/woman-drinking-coffee-sitting-by-600nw-2534533277.jpg",
+        image: "https://i1.pickpik.com/photos/821/429/88/food-drink-coffee-drinks-preview.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
+        location: "Food Stall",
         description: "Grab a freshly brewed coffee or tea from our friendly baristas. The perfect pick-me-up to keep you energized throughout the day.",
         category: "food"
     },
     {
         id: "pure-gelato",
         title: "Pure Gelato Cart",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnbJPO3rXxDe1tOkIQZnlxK4GK2Kp58GDzmw&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRlVCIXiWd0zZ7xJwwjQR7Ucm1oo9c9cviQ&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Cool off with a scoop (or two!) of Pure Gelato’s finest flavors. A sweet treat for all ages, made with quality ingredients.",
+        location: "Food Stall",
+        description: "Cool off with a scoop of Pure Gelato’s finest flavors. A sweet treat for all ages, made with quality ingredients.",
         category: "food"
     },
     {
         id: "crepes",
         title: "Crepes Stall",
-        image: "https://tse1.mm.bing.net/th/id/OIP.B7HE2PtMFY8UOtqVTrApegAAAA?r=0&pid=Api",
+        image: "https://iili.io/Fs0qiXt.md.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Indulge in freshly made crepes, both sweet and savory. Choose your favorite fillings and watch as your crepe is made to order.",
+        location: "Food Stall",
+        description: "You have never had crepes like this! Indulge in freshly made matcha crepes with red bean.",
         category: "food"
     },
     {
         id: "bubble-tea",
         title: "Bubble Tea Stall",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2YPuSEpvwQQW99DJSNdz1IuKX37tzkP5e1g&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsscLFZbacrCVg-l19jQF7QIhdYwc5y-RCw&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
+        location: "Food Stall",
         description: "Sip on refreshing bubble tea in a variety of flavors. A fun and tasty drink for kids and adults alike.",
         category: "food"
     },
     {
         id: "glass-noodle-fishball",
         title: "Glass Noodle Fish Ball Soup",
-        image: "https://www.shutterstock.com/image-photo/rice-vermicelli-noodle-soup-pork-260nw-2144265897.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5ye1hcMTCkkcYuUQaTCc43Wp5BnqWzlkdQ&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Warm up with a comforting bowl of glass noodle fish ball soup, a favorite among our community members.",
+        location: "Food Stall",
+        description: "Warm up with a comforting bowl of glass noodle fish ball soup, a favourite among our community members.",
         category: "food"
     },
     {
         id: "curry-fishball",
         title: "Curry Fish Ball",
-        image: "https://media.gettyimages.com/id/1418645425/photo/fish-balls-on-a-stick-cooked-in-a-pot-of-curry-broth-popular-hong-kong-street-food.jpg?s=612x612&w=gi&k=20&c=wEFB5znRNLeuyFOK_oH-w0U_k1ilouPXdCPDyVhK9DE=",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Curry_Fish_Balls_1A.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
+        location: "Food Stall",
         description: "Try this classic Hong Kong-style snack—tender fish balls simmered in a flavorful curry sauce.",
         category: "food"
     },
     {
         id: "indonesian",
         title: "Indonesian Food Stall",
-        image: "https://media.istockphoto.com/id/1497742498/photo/bali-indonesia.jpg?s=612x612&w=0&k=20&c=lzS2NI_JM4gYyRk0VSHx5KcS1-a7rcpRfWM_2ynGwFk=",
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/20/Nasi_Campur.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
+        location: "Food Stall",
         description: "Experience the rich and diverse flavors of Indonesia with our selection of authentic dishes, prepared by members of our Indonesian community.",
         category: "food"
     },
     {
         id: "congee",
         title: "Congee Stall",
-        image: "https://www.shutterstock.com/image-photo/joke-congee-thai-style-cup-600nw-2106539870.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Congee_with_Youtiao.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "Food Court",
-        description: "Enjoy a comforting bowl of congee, served with a variety of delicious toppings. A traditional favorite for all ages.",
+        location: "Food Stall",
+        description: "Enjoy a comforting bowl of congee, served with a variety of delicious toppings. A traditional favourite for all ages.",
         category: "food"
     },
     {
-        id: "cpc-cafe",
-        title: "The CPC Café - Coffee & Cakes",
-        image: "https://static.vecteezy.com/system/resources/thumbnails/050/927/928/small/cozy-coffee-shop-interior-with-espresso-machines-fresh-pastries-on-display-and-some-green-plants-small-local-business-concept-banner-photo.jpeg",
+        id: "cpc-grace",
+        title: "Carriers of Grace",
+        image: "https://iili.io/FslZpoB.md.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
-        location: "CPC Café",
-        description: "Relax in our cozy café with a cup of coffee or tea and a selection of homemade cakes and treats. A perfect spot to catch up with friends and family.",
-        category: "food"
+        location: "Market Area",
+        description: "Born in a church pew and stitched with purpose, Carriers of Grace is a small Christian business with a big heart. Founded by Bethany & Serena, we create beautiful, functional Bible pouches designed to carry your Sunday essentials—Bibles, notebooks, pens, and more—with grace and style. What started as a solution to the tote bag abyss has grown into a joyful mission: helping believers stay organised and focused during worship. It’s not just a pouch—it’s your faithful companion.",
+        category: "stall"
     },
     {
         id: "flower-stall",
@@ -165,45 +165,45 @@ const eventsList = [
     {
         id: "totes-amazing",
         title: "Totes Amazing Tote Bags",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStfQ-7Tom1BMoJvh2qP5m9djyR4Lkt90GYpw&s",
+        image: "https://iili.io/Fsl4Y5N.md.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Market Area",
-        description: "Carry your goodies in style! Choose from a range of eco-friendly, hand-decorated tote bags. Each bag is unique and makes a perfect gift or keepsake from the fete. Support sustainability and creativity in one purchase.",
+        description: "Carry your goodies in style! Choose from a range of eco-friendly, hand made tote bags. Each bag has been sewn with high quality fabric and recycled denim, so you can support sustainability and creativity in one purchase. No two bags are the same, making them the perfect gift or keepsake from the fete!",
         category: "stall"
     },
     {
         id: "cards-of-meaning",
         title: "Cards of Meaning",
-        image: "https://thumbs.dreamstime.com/b/poker-game-playing-cards-isolated-white-390025969.jpg",
+        image: "https://iili.io/Fsl4Y5N.md.jpg",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Market Area",
-        description: "Send a heartfelt message with our handmade cards, crafted with care by our community. Choose from a variety of designs for every occasion—birthdays, thank yous, encouragement, and more. Each card tells a story.",
+        description: "Send a heartfelt message with our handmade cards, crafted with care by our community. Choose from a variety of designs for every occasion. Each card tells a story.",
         category: "stall"
     },
     {
         id: "handicrafts",
         title: "Handicrafts Stall",
-        image: "https://cdn.pixabay.com/photo/2016/01/13/22/48/pottery-1139047_1280.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33IEgr6qtIDDzbUcMzkgI8mo47RcodlHZ8A&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Market Area",
-        description: "Browse a selection of unique, handmade crafts including jewelry, home décor, and more. All items are lovingly created by local artisans and volunteers. Find the perfect one-of-a-kind gift or treat yourself to something special.",
+        description: "Browse a selection of unique, handmade crafts. All items are lovingly created by local artisans and volunteers. Find the perfect one-of-a-kind gift or treat yourself to something special.",
         category: "stall"
     },
     {
         id: "book-stall",
         title: "Book Stall",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4TSGPeRUiDThLpdEOvo2bQTrCSN5xINxVg&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjRN31GyD2knTbOae8qZFbKXbI4SCeVLTzQ&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Market Area",
-        description: "Lose yourself in a good book! Our Book Stall features a wide range of pre-loved books for all ages and interests, from children’s stories to bestsellers. All proceeds support community programs.",
+        description: "Lose yourself in a good book! Our Book Stall features new books as well as a range of second hand books.",
         category: "stall"
     },
     {
@@ -214,7 +214,7 @@ const eventsList = [
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Kids Zone",
-        description: "Let the kids bounce to their hearts’ content in our safe and supervised jumping castle! Always a crowd favorite, this activity is perfect for burning off energy and making new friends. Suitable for children of all ages.",
+        description: "Let the kids bounce to their hearts’ content in our safe and supervised jumping castle! Always a crowd favourite, this activity is perfect for burning off energy and making new friends.",
         category: "kids"
     },
     {
@@ -231,12 +231,12 @@ const eventsList = [
     {
         id: "cupcake-decorating",
         title: "Cupcake Decorating",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxOnlGQhzqMToLdM7M-YBxflQcG4cjmG3exg&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVcZ_-dJKbyyqQ5ZAAKz5dc4z0Pg83af57w&s",
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "Kids Zone",
-        description: "Get creative and decorate your own cupcake with a variety of colorful icings and toppings. Take your masterpiece home or enjoy it on the spot! All materials provided. Suitable for kids and the young at heart.",
+        description: "Get creative and decorate your own cupcake with a variety of colourful icings and toppings. Take your masterpiece home or enjoy it on the spot! All materials provided. Suitable for kids and the young at heart.",
         category: "kids"
     },
 
@@ -267,14 +267,14 @@ const eventsList = [
     },
     {
         id: "food-extrauaganza",
-        title: "Food Extrauaganza",
+        title: "Food Extravaganza",
         image: "https://iili.io/FScBw42.jpg",
         time: "10:00AM - 3:00PM",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
         location: "All Locations",
         cost: "Tickets can be bought in ticket stalls",
-        description: "The main event for the fete is of course the food.  Created by our talented church members, you are in for a treat.  From Gyoza to Fish-ball soup to Gelato and cakes there will be something for everyone.  But there is much more than that.  We have flower and plant stalls, crafts and cards. Check out the list of stalls in the food section",
+        description: "The main event for the fete is of course the food.  Created by our talented church members, you are in for a treat.  From Scallops to Kim-chi pancakes there will be something that we are sure your won’t be able to resist. ",
         category: "food"
     },
     {
@@ -292,7 +292,7 @@ const eventsList = [
     {
         id: "choir",
         title: "CPC Choir",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ7S3ekqwcqO6xVnPavzVqI04HdWqU6aJHrQ&s", //Copyright free image from Pixabay
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ahV3MLPPdhiEnlzAk9h_QXqzbEOo8A3-QQ&s", 
         time: "11:00 AM - 3:00 PM",
         startTime: "2025-09-13T11:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -316,13 +316,25 @@ const eventsList = [
     {
         id: "face-painting",
         title: "Face Painting Fun",
-        image: "https://media.istockphoto.com/id/1177844198/photo/young-mother-painting-daughters-face-for-halloween-party-halloween-or-carnival-family.jpg?s=612x612&w=0&k=20&c=kgmd_yerkpkvqiwoK488kwaeQXMABWa6UwaI0Y63p_M=", //Copyright free image from iStock
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjFFa7bDbPt-2vgthtHybzfGQDr87CX528g&s", //Copyright free image from iStock
         time: "10:00 AM - 3:00 PM",
         startTime: "2025-09-13T10:00:00", 
         endTime: "2025-09-13T15:00:00",
         location: "Kids Zone",
         cost: "Ticket pricing",
-        description: "Transform into a tiger, a butterfly, or your favorite superhero! Our talented artists are ready to bring your imagination to life with a splash of color.",
+        description: "Transform into a tiger, a butterfly, or your favourite superhero! Our talented artists are ready to bring your imagination to life with a splash of colour.",
+        category: "kids"
+    },
+    {
+        id: "carnival",
+        title: "Carnival Games",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgSTK51RaVLaoecMdfM72k4q9zCeGhLYyqIg&s", //Copyright free image from iStock
+        time: "10:00 AM - 3:00 PM",
+        startTime: "2025-09-13T10:00:00", 
+        endTime: "2025-09-13T15:00:00",
+        location: "Kids Zone",
+        cost: "Ticket pricing",
+        description: "Have fun with lolly guessing, claw machines and ping pong cups! Smile wider with every prize you get and enjoy the fete!",
         category: "kids"
     },
     {

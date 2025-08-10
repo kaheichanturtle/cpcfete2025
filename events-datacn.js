@@ -11,7 +11,7 @@ const eventsList = [
     {
         id: "gyoza-springrolls",
         title: "餃子及迷你春卷",
-        image: "https://thumbs.dreamstime.com/b/chinese-traditional-spring-rolls-gyoza-dumpling-fried-wooden-table-69338821.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxFJzjatCvk4fBTW8bW4jnVg1qCUlKCotXrQ&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -22,7 +22,7 @@ const eventsList = [
     {
         id: "topokki",
         title: "韓式炒年糕",
-        image: "https://media.istockphoto.com/id/1152570620/photo/spicy-rice-cakes.jpg?s=612x612&w=0&k=20&c=TCyhZGs6rY66-RnxTCRFqEWESaQ3sgrzogwbc1UXmRo=",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOopThZfNj3DjjUWVcfbF7-QJf79h5XY-vYQ&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -33,7 +33,7 @@ const eventsList = [
     {
         id: "hk-street-food",
         title: "港式街頭小吃",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8TwCvo0V5SQM5is1nhKaYIYUAK7H1bWDOCg&s",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/31/HK_Lower_Wong_Tai_Sin_Eatate_Tung_Tau_Tsuen_Road_n_Ching_Tak_Street_%E9%9B%9E%E8%9B%8B%E4%BB%94.JPG",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -44,7 +44,7 @@ const eventsList = [
     {
         id: "coffee-cart",
         title: "咖啡車",
-        image: "https://www.shutterstock.com/image-photo/woman-drinking-coffee-sitting-by-600nw-2534533277.jpg",
+        image: "https://i1.pickpik.com/photos/821/429/88/food-drink-coffee-drinks-preview.jpg",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -55,7 +55,7 @@ const eventsList = [
     {
         id: "pure-gelato",
         title: "Pure Gelato 雪糕車",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnbJPO3rXxDe1tOkIQZnlxK4GK2Kp58GDzmw&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRlVCIXiWd0zZ7xJwwjQR7Ucm1oo9c9cviQ&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -66,7 +66,7 @@ const eventsList = [
     {
         id: "crepes",
         title: "可麗餅攤位",
-        image: "https://tse1.mm.bing.net/th/id/OIP.B7HE2PtMFY8UOtqVTrApegAAAA?r=0&pid=Api",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxc-epRX17pF6Xy8NpOgftMuTenoLxE7pcA&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -77,7 +77,7 @@ const eventsList = [
     {
         id: "bubble-tea",
         title: "珍珠奶茶攤位",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2YPuSEpvwQQW99DJSNdz1IuKX37tzkP5e1g&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsscLFZbacrCVg-l19jQF7QIhdYwc5y-RCw&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -88,7 +88,7 @@ const eventsList = [
     {
         id: "glass-noodle-fishball",
         title: "粉絲魚蛋湯",
-        image: "https://www.shutterstock.com/image-photo/rice-vermicelli-noodle-soup-pork-260nw-2144265897.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5ye1hcMTCkkcYuUQaTCc43Wp5BnqWzlkdQ&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -99,7 +99,7 @@ const eventsList = [
     {
         id: "curry-fishball",
         title: "咖喱魚蛋",
-        image: "https://media.gettyimages.com/id/1418645425/photo/fish-balls-on-a-stick-cooked-in-a-pot-of-curry-broth-popular-hong-kong-street-food.jpg?s=612x612&w=gi&k=20&c=wEFB5znRNLeuyFOK_oH-w0U_k1ilouPXdCPDyVhK9DE=",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Curry_Fish_Balls_1A.jpg",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -110,7 +110,7 @@ const eventsList = [
     {
         id: "indonesian",
         title: "印尼美食攤位",
-        image: "https://media.istockphoto.com/id/1497742498/photo/bali-indonesia.jpg?s=612x612&w=0&k=20&c=lzS2NI_JM4gYyRk0VSHx5KcS1-a7rcrRfWM_2ynGwFk=",
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/20/Nasi_Campur.jpg",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -121,7 +121,7 @@ const eventsList = [
     {
         id: "congee",
         title: "粥品攤位",
-        image: "https://www.shutterstock.com/image-photo/joke-congee-thai-style-cup-600nw-2106539870.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Congee_with_Youtiao.jpg",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -132,7 +132,7 @@ const eventsList = [
     {
         id: "cpc-cafe",
         title: "華人長老會咖啡及蛋糕店",
-        image: "https://static.vecteezy.com/system/resources/thumbnails/050/927/928/small/cozy-coffee-shop-interior-with-espresso-machines-fresh-pastries-on-display-and-some-green-plants-small-local-business-concept-banner-photo.jpeg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4uR3ii1mBR4a6t9CxBbIgtFVwPGRi0MYzA&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -165,7 +165,7 @@ const eventsList = [
     {
         id: "totes-amazing",
         title: "「驚艷手提包」攤位",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStfQ-7Tom1BMoJvh2qP5m9djyR4Lkt90GYpw&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJw8Q9tIDrixPGq66UnW5hyfCK5-SSG4PAA&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -176,7 +176,7 @@ const eventsList = [
     {
         id: "cards-of-meaning",
         title: "「意義卡片」攤位",
-        image: "https://thumbs.dreamstime.com/b/poker-game-playing-cards-isolated-white-390025969.jpg",
+        image: "https://media.istockphoto.com/id/165685954/photo/christmas-scrapbooking.jpg?s=612x612&w=0&k=20&c=ZnId8_45djkN_9sJCDQnuLT-PE6jbRNLg2dAolONFTg=",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -187,7 +187,7 @@ const eventsList = [
     {
         id: "handicrafts",
         title: "手工藝品攤位",
-        image: "https://cdn.pixabay.com/photo/2016/01/13/22/48/pottery-1139047_1280.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33IEgr6qtIDDzbUcMzkgI8mo47RcodlHZ8A&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -198,7 +198,7 @@ const eventsList = [
     {
         id: "book-stall",
         title: "圖書攤位",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4TSGPeRUiDThLpdEOvo2bQTrCSN5xINxVg&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjRN31GyD2knTbOae8qZFbKXbI4SCeVLTzQ&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -231,7 +231,7 @@ const eventsList = [
     {
         id: "cupcake-decorating",
         title: "杯子蛋糕裝飾",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxOnlGQhzqMToLdM7M-YBxflQcG4cjmG3exg&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVcZ_-dJKbyyqQ5ZAAKz5dc4z0Pg83af57w&s",
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -292,7 +292,7 @@ const eventsList = [
     {
         id: "choir",
         title: "華人長老會合唱團",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ7S3ekqwcqO6xVnPavzVqI04HdWqU6aJHrQ&s", //Copyright free image from Pixabay
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ahV3MLPPdhiEnlzAk9h_QXqzbEOo8A3-QQ&s", //Copyright free image from Pixabay
         time: "上午11:00 - 下午3:00",
         startTime: "2025-09-13T11:00:00",
         endTime: "2025-09-13T15:00:00",
@@ -316,7 +316,7 @@ const eventsList = [
     {
         id: "face-painting",
         title: "臉部彩繪樂",
-        image: "https://media.istockphoto.com/id/1177844198/photo/young-mother-painting-daughters-face-for-halloween-party-halloween-or-carnival-family.jpg?s=612x612&w=0&k=20&c=kgmd_yerkpkvqiwoK488kwaeQXMABWa6UwaI0Y63p_M=", //Copyright free image from iStock
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjFFa7bDbPt-2vgthtHybzfGQDr87CX528g&s", 
         time: "上午10:00 - 下午3:00",
         startTime: "2025-09-13T10:00:00", 
         endTime: "2025-09-13T15:00:00",
@@ -325,6 +325,17 @@ const eventsList = [
         description: "變身成老虎、蝴蝶或您最喜歡的超級英雄！我們才華橫溢的藝術家已準備好用色彩為您的想像力注入生命。",
         category: "kids"
     },
+    {
+    "id": "carnival",
+    "title": "嘉年華遊戲",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Amsterdam_-_Funfair_-_0560.jpg/960px-Amsterdam_-_Funfair_-_0560.jpg",
+    "time": "上午10:00 - 下午3:00",
+    "startTime": "2025-09-13T10:00:00",
+    "endTime": "2025-09-13T15:00:00",
+    "location": "兒童區",
+    "description": "玩嘉年華遊戲並贏取豐富獎品！",
+    "category": "kids"
+}
     {
         id: "fete-concludes",
         title: "市集結束",
