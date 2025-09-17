@@ -1,6 +1,6 @@
 # FETE Project
 
-This repository is part of the 2025 CPC Church FETE.
+This repository is part of the 2025 CPC Church FETE as an archive.
 
 ## Website Links
 
